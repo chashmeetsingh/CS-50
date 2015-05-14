@@ -3,7 +3,7 @@
 // 
 // Chashmeet Singh
 //
-// ITP Project
+// CS 50
 //
 
 // standard libraries
@@ -254,7 +254,7 @@ GRect initPaddle(GWindow window)
 {
     GRect paddle = newGRect(200 - 35, 500, 70, 10);
     // purple color
-    setColor(paddle, "7F00FF"); 
+    setColor(paddle, "BLUE"); 
     setFilled(paddle, true);
     add(window, paddle);
     return paddle;
